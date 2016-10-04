@@ -23,6 +23,7 @@
 		93D7EDB41D92DF900085DF00 /* ResultsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7EDB31D92DF900085DF00 /* ResultsCoordinator.swift */; };
 		93D7EDB81D93FF2C0085DF00 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7EDB71D93FF2C0085DF00 /* SearchViewModel.swift */; };
 		93D7EDBA1D93FF560085DF00 /* ResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D7EDB91D93FF560085DF00 /* ResultsViewModel.swift */; };
+		93F5B3C01D96E62500D1E0F1 /* SearchInputModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F5B3BF1D96E62500D1E0F1 /* SearchInputModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		93D7EDB31D92DF900085DF00 /* ResultsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsCoordinator.swift; sourceTree = "<group>"; };
 		93D7EDB71D93FF2C0085DF00 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		93D7EDB91D93FF560085DF00 /* ResultsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewModel.swift; sourceTree = "<group>"; };
+		93F5B3BF1D96E62500D1E0F1 /* SearchInputModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInputModel.swift; sourceTree = "<group>"; };
 		A012C7D573C0D4F48D0A8604 /* Pods-WebCrawlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawlerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawlerTests/Pods-WebCrawlerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4A907B7593F6BEA513CECBC /* Pods-WebCrawlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawlerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawlerTests/Pods-WebCrawlerTests.release.xcconfig"; sourceTree = "<group>"; };
 		DFD0E9CF67B0AF04A132F13A /* Pods-WebCrawler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebCrawler.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebCrawler/Pods-WebCrawler.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		933358C61D91D25E002BE56D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				93F5B3BF1D96E62500D1E0F1 /* SearchInputModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 				93D7EDAE1D92DE2B0085DF00 /* Coordinator.swift in Sources */,
 				933358A51D9163B0002BE56D /* AppDelegate.swift in Sources */,
 				93D7EDB81D93FF2C0085DF00 /* SearchViewModel.swift in Sources */,
+				93F5B3C01D96E62500D1E0F1 /* SearchInputModel.swift in Sources */,
 				93D7EDAC1D92DDF60085DF00 /* ResultsViewController.swift in Sources */,
 				93D7EDB21D92DF700085DF00 /* SearchCoordinator.swift in Sources */,
 			);

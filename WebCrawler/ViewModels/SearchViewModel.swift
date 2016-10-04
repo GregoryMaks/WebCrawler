@@ -10,13 +10,19 @@ import Foundation
 
 
 protocol SearchViewModelType {
+    var inputModel: SearchInputModel { get }
+    
     func beginSearch ()
 }
 
 
 class SearchViewModel: SearchViewModelType {
+    var inputModel: SearchInputModel
+    
+    init () {
+        self.inputModel = SearchInputModel()
+    }
     
     func beginSearch () {
-    
     }
 }

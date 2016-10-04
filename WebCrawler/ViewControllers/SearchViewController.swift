@@ -53,10 +53,14 @@ extension SearchViewController {
         self.disposeBag = DisposeBag()
         
         self.resultsCountSlider.rx.value
+//            .do(onNext: { (val) in
+//                self.viewModel
+//            })
             .map({ (val) -> String in
                 return String(format: "%.0f", val)
             })
             .bindTo(self.resultsCountTextField.rx.text)
+//            .bindTo(self.resultsCountTextField.rx.text)
             .addDisposableTo(self.disposeBag!)
         
         self.searchDepthSlider.rx.value
